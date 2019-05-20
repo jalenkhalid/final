@@ -1,0 +1,75 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+/*Navigation Styles*/
+nav{
+	background-color:red;
+	text-align:center;
+	font-family: 'Press Start 2P', cursive;
+
+
+}
+
+nav ul{
+	list-style:none;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	display:inline-block;
+	padding:20px;
+	text-decoration:none;
+	color:white;
+}
+nav a:hover{
+	background-color:white;
+	color:black;
+}
+/*End Navigation Styles*/
+#title{
+	color:white;
+	font-family: 'Press Start 2P', cursive;
+	text-align: center;
+	margin-top: 20px;
+}
+#video{
+	color:white;
+	margin-top: 40px;
+	text-align:center;
+}
+#video1{
+	color:white;
+	margin-top: 40px;
+	text-align:center;
+
+}
+#video2{
+	color:white;
+	margin-top: 40px;
+	text-align:center;
+}
+#video3{
+	color:white;
+	margin-top: 40px;
+}
+#game{
+	color:white;
+	margin-top: 60px;
+	text-align:left;
+	margin-left:100px;
+}
+#description{
+	color:white;
+	text-align:center;
+	margin-right:300px;
+	margin-left:300px;
+	margin-top: 20px; 
+}
+body{
+	background-image:url("back.jpg");
+	background-repeat: repeat;
+	font-family: 'Press Start 2P', cursive;
+}
